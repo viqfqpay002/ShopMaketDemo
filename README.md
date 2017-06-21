@@ -1,3 +1,4 @@
-# ShopMaketDemo
-一套完整的企业商城demo
-你值得拥有
+
+npm install
+windows:
+npm run dev-win和 npm run dist-win
