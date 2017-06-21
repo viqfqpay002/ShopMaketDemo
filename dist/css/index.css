@@ -1,0 +1,5 @@
+body{
+    background: red;
+    background-image: url(resource/test-img.jpg);
+    background-repeat: no-repeat;
+}
