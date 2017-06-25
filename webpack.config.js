@@ -40,6 +40,15 @@ var config = {
             {test: /\.(gif|png|jpg|woff|svg|eot|ttf)\??.*$/, loader: 'url-loader?limit=100&name=resource/[name].[ext]'}
         ]
     },
+    //配置调用工具类的路径
+    resolve : {
+        alias :{
+            util    : __dirname + '/src/util',
+            page    : __dirname + '/src/page',
+            service : __dirname + '/src/service',
+            image   : __dirname + '/src/image'
+        }
+    },
     //通用模块配置
    plugins : [
        //独立通用模块到js/base.js

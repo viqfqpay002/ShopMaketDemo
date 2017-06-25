@@ -1,0 +1,42 @@
+{
+  "status":0,
+  "data":{
+    "pageNum":1,
+    "pageSize":10,
+    "size":2,
+    "orderBy":null,
+    "startRow":1,
+    "endRow":2,
+    "total":2,
+    "pages":1,
+    "list":[{
+      "id":28,
+      "categoryId":100012,
+      "name":"4+64G送手环/Huawei/华为 nova 手机P9/P10plus青春",
+      "subtitle":"NOVA青春版1999元",
+      "mainImage":"0093f5d3-bdb4-4fb0-bec5-5465dfd26363.jpeg",
+      "price":1999.00,
+      "status":1,
+      "imageHost":"http://img.happymmall.com/"
+    },
+      {"id":29,
+        "categoryId":100008,
+        "name":"Haier/海尔HJ100-1HU1 10公斤滚筒洗衣机全自动带烘干家用大容量 洗烘一体",
+        "subtitle":"门店机型 德邦送货",
+        "mainImage":"173335a4-5dce-4afd-9f18-a10623724c4e.jpeg",
+        "price":4299.00,
+        "status":1,
+        "imageHost":"http://img.happymmall.com/"
+      }],
+    "firstPage":1,
+    "prePage":0,
+    "nextPage":0,
+    "lastPage":1,
+    "isFirstPage":true,
+    "isLastPage":true,
+    "hasPreviousPage":false,
+    "hasNextPage":false,
+    "navigatePages":8,
+    "navigatepageNums":[1]
+  }
+}
