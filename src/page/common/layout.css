@@ -1,3 +1,85 @@
+/* css reset */
+div,h1,h2,h3,h4,h5,h6,p,span,ul,li,dd,dt,dl,i,strong,a,img{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: none;
+    display: block;
+}
+ul li{
+    list-style-type: none;
+}
+button,input{
+    outline: none;
+}
+input[type="checkbox"],input[type="radio"]{
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+label{
+    cursor: pointer;
+}
 body{
-    background: red;
+    background: #f6f6f6;
+    font: 12px/1.5 tahoma, Helvetica, Arial, sans-serif,Microsoft YaHei ;
+}
+/* 定宽布局 */
+.w{
+    width: 1080px;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/* 全局通用样式 */
+/* 隐藏类 */
+.hide{
+    display: none;
+}
+/* 超链接样式 */
+ .link{
+     color: #999;
+     text-decoration: none;
+ }
+ .link:hover{
+     color: #e80012;
+ }
+ .link-text{
+     color: #999999;
+     text-decoration: none;
+ }
+ /* 按钮 */
+.btn{
+    display: inline-block;
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    border: none;
+    background: #c60023;
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-mini{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+/* loading */
+.loading{
+    width: 65px;
+    height: 65px;
+    margin:10px auto;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: url("../../image/icon/loading.gif") no-repeat;
+    opacity: 0.6;
 }

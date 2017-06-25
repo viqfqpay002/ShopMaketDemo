@@ -1,1 +1,1 @@
-webpackJsonp([1],[function(o,n,t){o.exports=t(4)},,,,function(o,n,t){"use strict";t(5),console.log("我是login")},function(o,n){o.exports={test:123455}}]);
+webpackJsonp([2],{0:function(o,n,t){o.exports=t(8)},8:function(o,n,t){"use strict";t(9),console.log("我是login")},9:function(o,n){o.exports={test:123455}}});

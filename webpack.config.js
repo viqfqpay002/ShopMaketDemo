@@ -43,6 +43,7 @@ var config = {
     //配置调用工具类的路径
     resolve : {
         alias :{
+            node_module : __dirname + '/node_modules',
             util    : __dirname + '/src/util',
             page    : __dirname + '/src/page',
             service : __dirname + '/src/service',
