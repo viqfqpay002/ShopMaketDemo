@@ -1,0 +1,20 @@
+.nav{
+    background: #eee;
+    height: 30px;
+    line-height: 30px;
+}
+.nav .userinfo{
+    float: left;
+}
+.nav .nav-list{
+    float: right;
+}
+.nav .userinfo .login.user{
+    display: none;
+}
+.nav .nav-list .link{
+    color: #999999;
+}
+.nav .nav-list .nav-item{
+    display: inline-block;
+}

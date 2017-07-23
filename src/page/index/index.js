@@ -4,5 +4,6 @@
 
 'use strict';
 require('page/common/nav-smiple/index.js');
+require('page/common/header/index.js');
 var _mm = require('util/mm.js');
 
